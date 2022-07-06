@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.AB-container{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: 191px 580px;
+    grid-template-areas: 
+    'header header header'
+    'leftt midddle rightt';
+}
+.AB-container-item1{
+      grid-area: header;
+}
+.AB-container-item1 img{
+     width: 10%;
+      height: 0;
+}
+.AB-container-item2{
+      grid-area: leftt;
+}
+.AB-container-item3{
+      grid-area: midddle;
+}
+.AB-container-item4{
+      grid-area: rightt;
+}
+.AB-container-item{
+    border: 1px solid;
+}
