@@ -1,20 +1,38 @@
 *{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .AB-container{
     display: grid;
     grid-template-columns: repeat(3, 450px);
-    grid-template-rows: 191px 580px;
+    grid-template-rows: 250px 640px;
     grid-template-areas: 
     'header header header'
     'leftt midddle rightt';
+    gap: 140px;
+    justify-content: center;
 }
 .AB-container-item1{
       grid-area: header;
+      display: grid;
+      justify-content: center;
+      justify-items: center;
 }
-.AB-container-item1 img{
-     width: 10%;
-      height: 0;
+.ourh1{
+      font-size: 70px;
+      font-weight: 800;
+      color: rgba(28, 35, 35, 1);
+}
+.AB-container-item1 p{
+      font-size: 30px;
+      font-weight: 400;
+      color: rgba(28, 35, 35, 1);
+      line-height: 45px;
+      padding-top: 20px;
+      padding-bottom: 51px;
+}
+#AB-full{
+   width: 15%;
 }
 .AB-container-item2{
       grid-area: leftt;
@@ -25,6 +43,28 @@
 .AB-container-item4{
       grid-area: rightt;
 }
-.AB-container-item{
-    border: 1px solid;
+.AB-projecth1{
+    color: rgba(88, 169, 165, 1);
+    font-weight: 700;
+    line-height: 60px;
+}
+.AB-projectp{
+    font-weight: 500;
+    color: rgba(72, 105, 88, 1);
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+.AB-room{
+    width: 450px;
+    height: 450px;
+}
+.AB-sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.AB-testimonal{
+padding-top: 250px;
+text-align: center;
 }
